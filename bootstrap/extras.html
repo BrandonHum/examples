@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap 3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<ol class="breadcrumb">
+			<li><a href="/bootstrap">Home</a></li>
+			<li><a href="#">Tutorials</a></li>
+			<li><a href="#">Web Dev</a></li>
+			<li class="active">Bootstrap</li>
+		</ol>
+
+		<div class="container">
+			<div class="alert alert-success">This is a success alert</div>
+			<div class="alert alert-info">This is an info alert</div>
+			<div class="alert alert-warning">This is a warning alert</div>
+			<div class="alert alert-danger alert-dismissable">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+				This is a danger alert</div>
+		</div>
+
+		<div class="container">
+			<!-- <div class="row"> -->
+				<div class="input-group col-lg-3 pull-left">
+					<span class="input-group-addon">$</span>
+
+					<input type="text" class="form-control" placeholder="Enter price">
+				</div>
+
+				<div class="input-group col-lg-3 pull-left">
+					<span class="input-group-addon">$</span>
+
+					<input type="text" class="form-control" placeholder="Enter price">
+
+					<span class="input-group-addon">Per unit</span>
+				</div>
+
+				<div class="input-group col-lg-3 pull-left">
+					<input type="text" class="form-control" placeholder="Enter some text">
+
+					<span class="input-group-btn">
+						<button class="btn btn-primary">Search</button>
+
+					</span>
+				</div>
+			<!-- </div> -->
+		</div>
+
+		<div class="container">
+			<div class="input-group input-group-sm">
+				<span class="input-group-addon">
+					<input type="checkbox">
+				</span>
+
+				<input type="text" class="form-control" placeholder="Enter price">
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="myCarousel" class="carousel slide">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/Mercury.jpg" alt="Mercury" class="img-responsive">
+
+						<div class="carousel-caption">
+							<h3>Mercury</h3>
+							<p>Lorem ipsum</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="img/venus.jpg" alt="Venus" class="img-responsive">
+
+						<div class="carousel-caption">
+							<h3>Venus</h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="img/earth.jpg" alt="Earth" class="img-responsive">
+
+						<div class="carousel-caption">
+							<h3>Earth</h3>
+						</div>
+					</div>
+				</div>
+
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					<span class="icon-prev"></span>
+				</a>
+
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+					<span class="icon-next"></span>
+				</a>
+			</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
